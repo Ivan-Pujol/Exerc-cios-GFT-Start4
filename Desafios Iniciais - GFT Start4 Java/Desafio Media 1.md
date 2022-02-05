@@ -1,17 +1,14 @@
-Desafios Iniciais - GFT Start #4 Java
-1 / 3 - Média 1
-?????
-Desafios
-? Intermediário? Princípios Básicos
+# Desafios Iniciais - GFT Start #4 Java
+1Â /Â 3Â -Â MÃ©dia 1
 
-Leia 2 valores de ponto flutuante de dupla precisão A e B, que correspondem a 2 notas de um aluno. A seguir, calcule a média do aluno, sabendo que a nota A tem peso 3.5 e a nota B tem peso 7.5 (A soma dos pesos portanto é 11). Assuma que cada nota pode ir de 0 até 10.0, sempre com uma casa decimal.
+Leia 2 valores de ponto flutuante de dupla precisÃ£o A e B, que correspondem a 2 notas de um aluno. A seguir, calcule a mÃ©dia do aluno, sabendo que a nota A tem peso 3.5 e a nota B tem peso 7.5 (A soma dos pesos portanto Ã© 11). Assuma que cada nota pode ir de 0 atÃ© 10.0, sempre com uma casa decimal.
 Entrada
-O arquivo de entrada contém 2 valores com uma casa decimal cada um.
-Saída
-Calcule e imprima a variável MEDIA conforme exemplo abaixo, com 5 dígitos após o ponto decimal e com um espaço em branco antes e depois da igualdade. Utilize variáveis de dupla precisão (double) e como todos os problemas, não esqueça de imprimir o fim de linha após o resultado, caso contrário, você receberá "Presentation Error".
+O arquivo de entrada contÃ©m 2 valores com uma casa decimal cada um.
+SaÃ­da
+Calcule e imprima a variÃ¡velÂ MEDIAÂ conforme exemplo abaixo, com 5 dÃ­gitos apÃ³s o ponto decimal e com um espaÃ§o em branco antes e depois da igualdade. Utilize variÃ¡veis de dupla precisÃ£o (double) e como todos os problemas, nÃ£o esqueÃ§a de imprimir o fim de linha apÃ³s o resultado, caso contrÃ¡rio, vocÃª receberÃ¡ "Presentation Error".
 
 Exemplos de Entrada
-Exemplos de Saída
+Exemplos de SaÃ­da
 5.0
 7.1
 MEDIA = 6.43182
@@ -22,20 +19,20 @@ MEDIA = 4.84091
 10.0
 MEDIA = 10.00000
 
+<p>
+import java.util.Scanner;<br>
 
-import java.util.Scanner;
-
-public class Program {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        double A, B, media;
-        A = sc.nextDouble();
-        B = sc.nextDouble();
-        //TODO: Complete os espaços em branco com as respectivas variáveis para o cálculo da média.
-        media = (   A  * 3.5 +  B   * 7.5)/11; 
-        //TODO: Complete com a variável que representa o resultado da média.
-        System.out.printf("MEDIA = %.5f", media    );
-        System.out.println();
-    }
-}
-
+public class Program {<br>
+    public static void main(String[] args) {<br>
+        Scanner sc = new Scanner(System.in);<br>
+        double A, B, media;<br>
+        A = sc.nextDouble();<br>
+        B = sc.nextDouble();<br>
+        //TODO: Complete os espaÃ§os em branco com as respectivas variÃ¡veis para o cÃ¡lculo da mÃ©dia.<br>
+        media = (   A  * 3.5 +  B   * 7.5)/11; <br>
+        //TODO: Complete com a variÃ¡vel que representa o resultado da mÃ©dia.<br>
+        System.out.printf("MEDIA = %.5f", media    );<br>
+        System.out.println();<br>
+    }<br>
+}<br>
+</p>
