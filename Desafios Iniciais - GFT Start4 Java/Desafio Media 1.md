@@ -6,19 +6,17 @@ Entrada
 O arquivo de entrada contém 2 valores com uma casa decimal cada um.
 Saída
 Calcule e imprima a variável MEDIA conforme exemplo abaixo, com 5 dígitos após o ponto decimal e com um espaço em branco antes e depois da igualdade. Utilize variáveis de dupla precisão (double) e como todos os problemas, não esqueça de imprimir o fim de linha após o resultado, caso contrário, você receberá "Presentation Error".
+<p>
+Exemplos de Entrada    Exemplos de Saída<br>
+5.0<br>
+7.1                     MEDIA = 6.43182<br>
 
-Exemplos de Entrada
-Exemplos de Saída
-5.0
-7.1
-MEDIA = 6.43182
-0.0
-7.1
-MEDIA = 4.84091
-10.0
-10.0
-MEDIA = 10.00000
+0.0<br>
+7.1                     MEDIA = 4.84091<br>
 
+10.0<br>
+10.0                    MEDIA = 10.00000<br>
+</p>
 <p>
 import java.util.Scanner;<br>
 
