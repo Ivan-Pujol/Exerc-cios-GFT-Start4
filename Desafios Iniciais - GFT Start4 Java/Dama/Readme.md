@@ -29,3 +29,38 @@ Exemplo de Entrada	Exemplo de Saída<br>
 
 
 Maratona de Programação da SBC 2008.
+================================CODE=====================================
+
+import java.util.Scanner;<br>
+<br>
+public class Main {<br>
+	public static void main(String[] args) {<br>
+		Scanner sc = new Scanner(System.in);<br>
+				<br>
+		int x1,y1,x2,y2;<br>
+		//se estiver na mesma linha ou mesma coluna ou mesma diagonal, gasta 1 movimento<br>
+		//se estiver em qualquer outra posição, a rainha gastará 2 movimentos!<br>
+<br>
+	    while(true){<br>
+	    	x1 = sc.nextInt();<br>
+	    	y1 = sc.nextInt();<br>
+	    	x2 = sc.nextInt();<br>
+	    	y2 = sc.nextInt();<br>
+	    	if(x1 == 0 && y1 == 0 && x2 == 0 && y2 == 0) break; //condição de parada<br>
+	    	if(x1==x2&&y1==y2 )		<br>
+	    		System.out.println("0");<br>
+	        else if(x1==x2||y1==y2)	{<br>
+	          //indicação de ("reta") linha ou coluna;<br>
+	        	System.out.println("1");<br>
+	        }<br>
+	    	else if(((x1-x2)+(y1-y2)==0)||((x1-x2)+(y2-y1)==0)){<br>
+	    	  //indicação de ("diagonal");<br>
+	    		System.out.println("1");<br>
+	    	}<br>
+	        else <br>
+	        	System.out.println("2");	<br>
+	    }<br>
+		sc.close();<br>
+	}<br>
+}<br>
+<br>
